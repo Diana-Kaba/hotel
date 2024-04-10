@@ -1,0 +1,604 @@
+# Translation of Plugins - Getwid &#8211; Gutenberg Blocks - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Getwid &#8211; Gutenberg Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-09 17:06:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Getwid &#8211; Gutenberg Blocks - Stable (latest release)\n"
+
+#. translators: %s is username or user id
+#: includes/settings-page.php:278 includes/settings-page.php:286
+msgid "Account: %s"
+msgstr "Обліковий запис: %s"
+
+#: includes/blocks/ai-text.php:19 assets/js/editor.blocks.js:23
+msgid "AI Assistant"
+msgstr "Помічник ШІ"
+
+#. translators: %s is email subject
+#: includes/blocks/contact-form.php:240
+msgid "Contact Form: %s"
+msgstr "Контактна форма: %s"
+
+#: includes/ai/request.php:87
+msgid "An error occurred when making a request to the Getwid AI server."
+msgstr "Під час надсилання запиту до сервера Getwid AI сталася помилка."
+
+#: includes/ai/request.php:32
+msgid "cURL support is required, but it can not be found."
+msgstr "cURL підтримка необхідна, але її неможливо знайти."
+
+#: includes/ai/request.php:19
+msgid "Current user must be a valid instance of WP_User."
+msgstr "Поточний користувач має бути дійсним екземпляром WP_User."
+
+#: includes/rest-api.php:214
+msgid "Please provide a valid URL."
+msgstr "Будь ласка, вкажіть дійсну URL-адресу."
+
+#: includes/settings-page.php:238
+msgid "Default width of the content area in the Section block. Leave empty to use $content_width set in your theme. Set 0 to disable this option and control it via CSS."
+msgstr "Стандартна ширина області вмісту в блоці «Розділ». Залиште поле порожнім, щоб використовувати налаштування $content_width у вашій темі. Встановіть 0, щоб вимкнути цей параметр і керувати ним за допомогою CSS."
+
+#: includes/blocks/content-slider.php:52 assets/js/editor.blocks.js:23
+msgid "Content Slider"
+msgstr "Слайдер вмісту"
+
+#: includes/templates/recent-posts/post.php:92
+#: includes/templates/template-parts/post-comments.php:27
+msgid "No comments"
+msgstr "Коментарі відсутні"
+
+#. translators: %d is a comments count
+#: includes/templates/recent-posts/post.php:90
+#: includes/templates/template-parts/post-comments.php:25
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d коментар"
+msgstr[1] "%d коментарі"
+msgstr[2] "%d коментарів"
+
+#: includes/templates/mailchimp/mailchimp.php:27
+msgid "Subscribe"
+msgstr "Підписка"
+
+#: includes/templates/contact-form/field-textarea.php:8
+#: assets/js/editor.blocks.js:23
+msgid "Message"
+msgstr "Повідомлення"
+
+#: includes/templates/contact-form/field-name.php:8
+#: assets/js/editor.blocks.js:23
+msgid "Name"
+msgstr "Ім`я"
+
+#: includes/templates/contact-form/field-email.php:8
+#: includes/templates/mailchimp/field-email.php:8 assets/js/editor.blocks.js:23
+msgid "Email address"
+msgstr "E-mail адреса"
+
+#: includes/templates/contact-form/contact-form.php:25
+msgid "Submit"
+msgstr "Надіслати"
+
+#: includes/settings-page.php:450
+msgid "These settings may break some blocks in posts loaded via Ajax. These settings may not work together with optimization plugins."
+msgstr "Ці налаштування можуть порушити деякі блоки в дописах, завантажених через Ajax. Ці налаштування можуть не працювати разом із плагінами оптимізації."
+
+#: includes/settings-page.php:446
+msgid "If this option is on, all CSS files of blocks will be moved to header for better theme compatibility. If your theme has custom styling for Getwid blocks, its styles will be applied first."
+msgstr "Якщо цей параметр увімкнено, всі CSS файли блоків буде переміщено до заголовка для кращої сумісності теми. Якщо ваша тема має власний стиль для блоків Getwid, його стилі будуть застосовані першими."
+
+#: includes/settings-page.php:443
+msgid "Aggregate all CSS files of blocks in header"
+msgstr "Об'єднати всі CSS файли блоків у заголовку"
+
+#: includes/settings-page.php:437
+msgid "If this option is on, all CSS and JS files of blocks will be loaded on demand in footer. This will reduce the amount of heavy assets on the page."
+msgstr "Якщо цей параметр увімкнено, всі CSS та JS файли блоків завантажуватимуться за запитом в підвалі сайту. Це зменшить кількість важких ресурсів на сторінці."
+
+#: includes/settings-page.php:434
+msgid "Load CSS and JS of blocks on demand"
+msgstr "Завантажувати CSS і JS блоків на вимогу"
+
+#: includes/settings-page.php:420
+msgid "Hides block until the entrance animation starts. Prevents possible occurrence of horizontal scroll during the animation."
+msgstr "Приховує блок, доки не почнеться анімація входу. Запобігає можливій появі горизонтального прокручування під час анімації."
+
+#: includes/settings-page.php:417
+msgid "Enable smooth animation of blocks"
+msgstr "Увімкнути плавну анімацію блоків"
+
+#: includes/settings-page.php:406
+msgid "Manage Post Templates"
+msgstr "Керування шаблонами дописів"
+
+#: includes/settings-page.php:405
+msgid "Post Templates are used for presenting posts in a certain format and style. You can change how a post looks by choosing a post template in the Custom Post Type and related blocks."
+msgstr "Шаблони дописів використовуються для представлення дописів у певному форматі та стилі. Ви можете змінити вигляд допису, обравши шаблон допису у власному типі допису та пов’язаних блоках."
+
+#: includes/settings-page.php:374
+msgid "Deselect All"
+msgstr "Зняти вибір з усіх"
+
+#: includes/settings-page.php:372
+msgid "Select All"
+msgstr "Обрати все"
+
+#. translators: %1$s, %2$s is a number of total and disabled blocks
+#: includes/settings-page.php:367
+msgid "Total: %1$s, Disabled: %2$s"
+msgstr "Всього: %1$s, вимкнено: %2$s"
+
+#: includes/settings-page.php:321
+msgid "Time until expiration of media data in minutes. Setting to 0 means no expiration."
+msgstr "Час до закінчення терміну дії медіаданих у хвилинах. Значення 0 означає відсутність терміну дії."
+
+#: includes/settings-page.php:308
+msgid "Refresh Access Token"
+msgstr "Оновити токен доступу"
+
+#: includes/settings-page.php:302 assets/js/editor.blocks.js:23
+msgid "Connect Instagram Account"
+msgstr "Підключіть обліковий запис Instagram"
+
+#: includes/settings-page.php:237
+msgctxt "pixels"
+msgid "px"
+msgstr "px"
+
+#: includes/settings-page.php:219
+msgid "Disable Getwid Blocks"
+msgstr "Вимкнути блоки Getwid"
+
+#: includes/settings-page.php:213 assets/js/editor.blocks.js:23
+msgid "Mailchimp API Key"
+msgstr "Mailchimp API Key"
+
+#: includes/settings-page.php:207
+msgid "Recaptcha Secret Key"
+msgstr "Recaptcha Secret Key"
+
+#: includes/settings-page.php:201
+msgid "Recaptcha Site Key"
+msgstr "Recaptcha Site Key"
+
+#: includes/settings-page.php:195 assets/js/editor.blocks.js:23
+msgid "Google Maps API Key"
+msgstr "API ключ Google Maps"
+
+#: includes/settings-page.php:189
+msgid "Instagram Cache Timeout"
+msgstr "Час очікування кешу Instagram"
+
+#: includes/settings-page.php:183
+msgid "Instagram Access Token"
+msgstr "Токен доступу до Instagram"
+
+#: includes/settings-page.php:175
+msgid "Performance Optimization"
+msgstr "Оптимізація продуктивності"
+
+#: includes/settings-page.php:169 assets/js/editor.blocks.js:23
+msgid "Animation"
+msgstr "Анімація"
+
+#: includes/settings-page.php:163
+msgid "Section Content Width"
+msgstr "Ширина вмісту розділу"
+
+#: includes/settings-page.php:114
+msgid "Instagram: access denied."
+msgstr "Instagram: доступ заборонено."
+
+#: includes/settings-page.php:106
+msgid "Instagram: access token updated."
+msgstr "Instagram: токен доступу оновлено."
+
+#: includes/settings-page.php:93
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: includes/settings-page.php:34
+msgctxt "Settings page title(in menu)"
+msgid "Getwid"
+msgstr "Getwid"
+
+#: includes/settings-page.php:33
+msgctxt "Settings page title"
+msgid "Getwid Settings"
+msgstr "Налаштування Getwid"
+
+#: includes/settings-page.php:25
+msgid "Blocks"
+msgstr "Блоки"
+
+#: includes/settings-page.php:24
+msgid "Appearance"
+msgstr "Подання"
+
+#: includes/settings-page.php:23 assets/js/editor.blocks.js:6
+msgid "General"
+msgstr "Загальне"
+
+#: includes/scripts-manager.php:70
+msgid "Full Size"
+msgstr "Повний розмір"
+
+#: includes/rest-api.php:155
+msgid "Templates"
+msgstr "Шаблони"
+
+#: includes/rest-api.php:132
+msgid "Taxonomy"
+msgstr "Таксономія"
+
+#: includes/rest-api.php:109
+msgid "Post Type"
+msgstr "Тип допису"
+
+#: includes/rest-api.php:77
+msgid "Forbidden."
+msgstr "Заборонено."
+
+#: includes/post-template-part.php:33
+msgid "No templates found in Trash"
+msgstr "У кошику не знайдено шаблонів"
+
+#: includes/post-template-part.php:32
+msgid "No templates found"
+msgstr "Шаблонів не знайдено"
+
+#: includes/post-template-part.php:31
+msgid "Search Templates"
+msgstr "Знайти шаблони"
+
+#: includes/post-template-part.php:30
+msgid "View Template"
+msgstr "Переглянути шаблон"
+
+#: includes/post-template-part.php:28
+msgid "Edit Template"
+msgstr "Редагувати шаблон"
+
+#: includes/post-template-part.php:27
+msgid "Add New Template"
+msgstr "Додати шаблон"
+
+#: includes/post-template-part.php:26 includes/post-template-part.php:29
+msgid "New Template"
+msgstr "Новий шаблон"
+
+#: includes/post-template-part.php:25 assets/js/editor.blocks.js:23
+msgid "Getwid Post Templates"
+msgstr "Шаблони дописів Getwid"
+
+#: includes/post-template-part.php:24 assets/js/editor.blocks.js:6
+msgid "Post Template"
+msgstr "Шаблон допису"
+
+#: includes/post-template-part.php:23 includes/settings-page.php:26
+msgid "Post Templates"
+msgstr "Шаблони дописів"
+
+#. translators: %s is an error message
+#: includes/instagram-token-manager.php:113
+msgid "An error occurred while updating Instagram access token: %s"
+msgstr "Під час оновлення маркера доступу до Instagram сталася помилка: %s"
+
+#: includes/getwid.php:241 assets/js/editor.blocks.js:6
+#: assets/js/editor.blocks.js:23
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/getwid.php:224
+msgid "Write a Review"
+msgstr "Залишити відгук"
+
+#: includes/getwid.php:222
+msgid "Support"
+msgstr "Підтримка"
+
+#: includes/blocks/video-popup.php:43 assets/js/editor.blocks.js:23
+msgid "Video Popup"
+msgstr "Зринаюче відео"
+
+#: includes/blocks/toggle.php:28 assets/js/editor.blocks.js:23
+msgid "Toggle"
+msgstr "Перемикач"
+
+#: includes/blocks/testimonial.php:23 assets/js/editor.blocks.js:23
+msgid "Testimonial"
+msgstr "Відгук"
+
+#: includes/blocks/template-parts/post-button.php:35
+#: includes/blocks/template-parts/post-link.php:29
+#: assets/js/editor.blocks.js:23
+msgid "Read More"
+msgstr "Докладніше"
+
+#: includes/blocks/template-library.php:19 assets/js/editor.blocks.js:23
+msgid "Template Library"
+msgstr "Бібліотека шаблонів"
+
+#: includes/blocks/tabs.php:27 assets/js/editor.blocks.js:23
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: includes/blocks/table.php:22 assets/js/editor.blocks.js:23
+msgid "Table"
+msgstr "Таблиця"
+
+#: includes/blocks/table-of-contents.php:31 assets/js/editor.blocks.js:23
+msgid "Table of Contents"
+msgstr "Зміст"
+
+#: includes/blocks/social-links.php:27 assets/js/editor.blocks.js:23
+msgid "Social Links"
+msgstr "Посилання на соцмережі"
+
+#: includes/blocks/section.php:67 assets/js/editor.blocks.js:6
+#: assets/js/editor.blocks.js:23
+msgid "Section"
+msgstr "Розділ"
+
+#: includes/blocks/recent-posts.php:94 assets/js/editor.blocks.js:23
+msgid "Recent Posts"
+msgstr "Останні дописи"
+
+#: includes/blocks/progress-bar.php:31 assets/js/editor.blocks.js:23
+msgid "Progress Bar"
+msgstr "Індикатор виконання"
+
+#: includes/blocks/price-list.php:23 assets/js/editor.blocks.js:23
+msgid "Price List"
+msgstr "Прайс-лист"
+
+#: includes/blocks/price-box.php:23 assets/js/editor.blocks.js:23
+msgid "Price Box"
+msgstr "Прайс-блок"
+
+#: includes/blocks/post-slider.php:173 assets/js/editor.blocks.js:23
+msgid "Post Slider"
+msgstr "Слайдер дописів"
+
+#: includes/blocks/post-carousel.php:185 assets/js/editor.blocks.js:23
+msgid "Post Carousel"
+msgstr "Карусель дописів"
+
+#: includes/blocks/person.php:23 assets/js/editor.blocks.js:23
+msgid "Person"
+msgstr "Особа"
+
+#: includes/blocks/media-text-slider.php:59 assets/js/editor.blocks.js:23
+msgid "Media & Text Slider"
+msgstr "Слайдер медіа та тексту"
+
+#: includes/blocks/mailchimp.php:378
+msgid "Thank you for joining our mailing list."
+msgstr "Дякуємо, що приєдналися до нашого списку розсилки."
+
+#: includes/blocks/mailchimp.php:322
+msgid "An invalid Mailchimp list was provided."
+msgstr "Надано недійсний список Mailchimp."
+
+#: includes/blocks/mailchimp.php:318
+msgid "Email is required."
+msgstr "Необхідно вказати E-mail адресу."
+
+#: includes/blocks/mailchimp.php:179
+#: includes/templates/mailchimp/field-last-name.php:8
+#: assets/js/editor.blocks.js:23
+msgid "Last name"
+msgstr "Прізвище"
+
+#: includes/blocks/mailchimp.php:165
+#: includes/templates/mailchimp/field-first-name.php:8
+#: assets/js/editor.blocks.js:23
+msgid "First name"
+msgstr "Ім'я"
+
+#: includes/blocks/mailchimp.php:142
+msgid "Select at least one MailChimp list."
+msgstr "Оберіть принаймні один список MailChimp."
+
+#: includes/blocks/mailchimp.php:26 assets/js/editor.blocks.js:23
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: includes/blocks/instagram.php:147 includes/instagram-token-manager.php:97
+#: includes/rest-api.php:201 includes/rest-api.php:231
+msgid "Error in json_decode."
+msgstr "Помилка в json_decode."
+
+#. translators: %s is a link
+#: includes/blocks/instagram.php:102
+msgid "Instagram Access Token is not set. <a href=\"%s\">Connect Instagram Account</a>."
+msgstr "Маркер доступу до Instagram не встановлено. <a href=\"%s\">Підключіть обліковий запис Instagram</a>."
+
+#: includes/blocks/instagram.php:52 assets/js/editor.blocks.js:23
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/blocks/images-stack.php:23 assets/js/editor.blocks.js:23
+msgid "Image Stack Gallery"
+msgstr "Галерея складених зображень"
+
+#: includes/blocks/images-slider.php:52 assets/js/editor.blocks.js:23
+msgid "Image Slider"
+msgstr "Слайдер зображень"
+
+#: includes/blocks/image-hotspot.php:75 assets/js/editor.blocks.js:23
+msgid "Image Hotspot"
+msgstr "Гаряча точка зображення"
+
+#: includes/blocks/image-box.php:35 assets/js/editor.blocks.js:23
+msgid "Image Box"
+msgstr "Блок із зображенням"
+
+#: includes/blocks/icon.php:35 assets/js/editor.blocks.js:23
+msgid "Icon"
+msgstr "Іконка"
+
+#: includes/blocks/icon-box.php:34 assets/js/editor.blocks.js:23
+msgid "Icon Box"
+msgstr "Блок з іконкою"
+
+#: includes/blocks/google-map.php:47 assets/js/editor.blocks.js:23
+msgid "Google Maps"
+msgstr "Мапи Google"
+
+#: includes/blocks/custom-post-type.php:287
+msgctxt "Next post"
+msgid ">"
+msgstr ">"
+
+#: includes/blocks/custom-post-type.php:286
+msgctxt "Previous post"
+msgid "<"
+msgstr "<"
+
+#: includes/blocks/custom-post-type.php:264
+msgid "Posts navigation"
+msgstr "Навігація дописів"
+
+#: includes/blocks/custom-post-type.php:121 assets/js/editor.blocks.js:23
+msgid "Custom Post Type"
+msgstr "Власний тип допису"
+
+#: includes/blocks/counter.php:44 assets/js/editor.blocks.js:23
+msgid "Counter"
+msgstr "Лічильник"
+
+#: includes/blocks/countdown.php:342
+msgid "Invalid date."
+msgstr "Невірна дата."
+
+#: includes/blocks/countdown.php:163 assets/js/editor.blocks.js:23
+msgid "Countdown"
+msgstr "Зворотний відлік"
+
+#: includes/blocks/content-timeline.php:23 assets/js/editor.blocks.js:23
+msgid "Content Timeline"
+msgstr "Часова шкала вмісту"
+
+#: includes/blocks/contact-form.php:336
+msgid "The response is no longer valid: either is too old or has been used previously."
+msgstr "Відповідь більше недійсна: або занадто стара, або використовувалася раніше."
+
+#: includes/blocks/contact-form.php:330
+msgid "The response parameter is invalid or malformed."
+msgstr "Параметр відповіді недійсний або неправильно сформований."
+
+#: includes/blocks/contact-form.php:324
+msgid "The secret parameter is invalid or malformed."
+msgstr "Секретний параметр недійсний або неправильно сформований."
+
+#: includes/blocks/contact-form.php:318
+msgid "Please check the captcha."
+msgstr "Будь ласка, перевірте капчу."
+
+#: includes/blocks/contact-form.php:312
+msgid "The secret parameter is missing."
+msgstr "Відсутній секретний параметр."
+
+#: includes/blocks/contact-form.php:306
+msgid "The request is invalid or malformed."
+msgstr "Запит недійсний або неправильно сформований."
+
+#: includes/blocks/contact-form.php:273
+msgid "There was an error trying to send your message. Please try again later."
+msgstr "Під час спроби надіслати Ваше повідомлення сталася помилка. Будь ласка, спробуйте ще раз пізніше."
+
+#: includes/blocks/contact-form.php:266
+msgid "Thank you for your message. It has been sent."
+msgstr "Ваше повідомлення успішно надіслане. Щиро дякуємо."
+
+#. translators: %s is a blogname
+#: includes/blocks/contact-form.php:252
+msgid "This e-mail was sent from a contact form on %s"
+msgstr "Цей електронний лист надіслано з контактної форми на %s"
+
+#: includes/blocks/contact-form.php:22 includes/blocks/contact-form.php:235
+#: assets/js/editor.blocks.js:23
+msgid "Contact Form"
+msgstr "Контактна форма"
+
+#: includes/blocks/circle-progress-bar.php:31 assets/js/editor.blocks.js:23
+msgid "Circular Progress Bar"
+msgstr "Круговий індикатор прогресу"
+
+#: includes/blocks/button-group.php:23 assets/js/editor.blocks.js:23
+msgid "Button Group"
+msgstr "Група кнопок"
+
+#: includes/blocks/banner.php:22 assets/js/editor.blocks.js:23
+msgid "Banner"
+msgstr "Банер"
+
+#: includes/blocks/anchor.php:20 assets/js/editor.blocks.js:23
+msgid "Anchor"
+msgstr "Якір"
+
+#: includes/blocks/advanced-spacer.php:23 assets/js/editor.blocks.js:23
+msgid "Advanced Spacer"
+msgstr "Розширений проміжок"
+
+#: includes/blocks/advanced-heading.php:22 assets/js/editor.blocks.js:23
+msgid "Advanced Heading"
+msgstr "Розширений заголовок"
+
+#: includes/blocks/accordion.php:28 assets/js/editor.blocks.js:23
+msgid "Accordion"
+msgstr "Акордеон"
+
+#. translators: %1$s is a block name, %2$s is a link
+#: includes/blocks/abstract-block.php:75 assets/js/editor.blocks.js:6
+msgid "%1$s block is disabled in plugin settings. <a href=\"%2$s\">Manage Blocks</a>"
+msgstr "Блок %1$s вимкнено в налаштуваннях плагіна. <a href=\"%2$s\">Керування блоками</a>"
+
+#: includes/blocks-manager.php:62 includes/blocks-manager.php:105
+msgid "Getwid ACF Blocks"
+msgstr "Getwid ACF блоки"
+
+#: includes/blocks-manager.php:49 includes/blocks-manager.php:92
+msgid "Getwid Post Blocks"
+msgstr "Блоки дописів Getwid"
+
+#: includes/blocks-manager.php:37 includes/blocks-manager.php:80
+msgid "Getwid Blocks"
+msgstr "Блоки Getwid"
+
+#: includes/block-actions.php:8
+msgid "Nothing found."
+msgstr "Нічого не знайдено."
+
+#. Author URI of the plugin
+#: getwid.php
+msgid "https://motopress.com/"
+msgstr "https://motopress.com/"
+
+#. Author of the plugin
+#: getwid.php
+msgid "MotoPress"
+msgstr "MotoPress"
+
+#. Description of the plugin
+#: getwid.php
+msgid "Extra Gutenberg blocks for building seamless and aesthetic websites in the WordPress block editor."
+msgstr "Додаткові блоки Gutenberg для створення безшовних та естетичних веб-сайтів у редакторі блоків WordPress."
+
+#. Plugin URI of the plugin
+#: getwid.php
+msgid "https://motopress.com/products/getwid/"
+msgstr "https://motopress.com/products/getwid/"
+
+#. Plugin Name of the plugin
+#: getwid.php
+msgid "Getwid"
+msgstr "Getwid"
